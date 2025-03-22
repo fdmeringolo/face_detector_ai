@@ -21,11 +21,20 @@ The model is trained using the "Nonface and Face Dataset," which can be download
 - **Jupyter Notebook**: Contains the entire implementation, including data preprocessing, model training, and evaluation.
 - **Dataset**: Images used for training and testing.
 - **Trained Model**: The trained model is saved as `face_detector_model_SVC.pkl` for later use.
-
 ## Usage
-1. Download the dataset from the Kaggle link above.
-2. Open the Jupyter Notebook and execute the cells step by step to train the model.
-3. Once trained, use the model to detect faces in new images.
+To use this project, follow these steps:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/fdmeringolo/face_detector.git
+    cd face_detector
+    ```
+2. Download the dataset from the Kaggle link above and place it in the `data/` directory.
+3. Install the required dependencies:
+    ```bash
+    pip install numpy pandas scikit-learn matplotlib opencv-python jupyter joblib scikit-image
+    ```
+4. Open the Jupyter Notebook and execute the cells step by step to train the model.
+5. Once trained, use the model to detect faces in new images.
 
 ## Requirements
 To run this project, install the following dependencies:
@@ -39,7 +48,7 @@ pip install numpy pandas scikit-learn matplotlib opencv-python jupyter joblib sc
 - Optimize performance for real-time face detection.
 
 ## License
-This project is open-source and available for contributions.
+This project is open-source and available for contributions under the MIT License. See the LICENSE file for more details.
 
 ---
 Feel free to modify and expand this README as needed!
