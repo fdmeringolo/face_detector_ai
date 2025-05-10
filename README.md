@@ -25,8 +25,8 @@ The model is trained using the "Nonface and Face Dataset," which can be download
 To use this project, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/fdmeringolo/face_detector.git
-    cd face_detector
+    git clone https://github.com/fdmeringolo/face_detector_ai.git
+    cd face_detector_ai
     ```
 2. Download the dataset from the Kaggle link above and place it in the `data/` directory.
 3. Install the required dependencies:
@@ -46,10 +46,4 @@ pip install numpy pandas scikit-learn matplotlib opencv-python jupyter joblib sc
 - Extend the model to detect multiple faces in an image.
 - Improve accuracy using deep learning techniques.
 - Optimize performance for real-time face detection.
-
-## License
-This project is open-source and available for contributions under the MIT License. See the LICENSE file for more details.
-
----
-Feel free to modify and expand this README as needed!
 
